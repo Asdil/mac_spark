@@ -18,7 +18,7 @@
 <br>cd /usr/local/Cellar/apache-spark/2.2.0/bin/  ./spark-shell
 
 <br>5.设置pycharm
-<br>下载重github下载 spark.py 文件  和word.txt
+<br>下载重github下载 spark_test.py 文件  和word.txt
 <br>run->Edit Configuretions->Environment variables 添加
 <br>PYTHONPATH /usr/local/Cellar/apache-spark/2.2.0/libexec/python
 <br>SPARK_HOME /usr/local/Cellar/apache-spark/2.2.0/libexec
