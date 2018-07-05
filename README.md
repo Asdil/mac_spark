@@ -24,3 +24,17 @@
 <br>SPARK_HOME /usr/local/Cellar/apache-spark/2.2.0/libexec
 
 <br>运行文件里spark.py程序
+
+<br>新方法
+<br> scala和spark都是可运行文件，只需要下载加入环境变量就可以
+<br>export SCALA_HOME=/Users/23mofang/Desktop/hail/scala-2.12.6
+<br>#export SCALA_HOME=$PATH:/Users/23mofang/Desktop/hail/scala-2.12.6
+<br>export PATH=$PATH:$SCALA_HOME/bin
+
+<br>export SPARK_HOME=/Users/23mofang/Desktop/hail/spark-2.2.0-bin-hadoop2.7
+<br>#export SPARK_HOME=$PATH:/Users/23mofang/Desktop/hail/spark-2.2.0-bin-hadoop2.7
+<br>export PATH=$PATH:$SPARK_HOME/bin
+
+<br>export HAIL_HOME=/Users/23mofang/Desktop/hail/hail
+<br>#export HAIL_HOME=$PATH:/Users/23mofang/Desktop/hail/hail
+<br>export PATH=$PATH:$HAIL_HOME/bin
